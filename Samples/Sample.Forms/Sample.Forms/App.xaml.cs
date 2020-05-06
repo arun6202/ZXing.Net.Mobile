@@ -12,7 +12,7 @@ namespace Sample.Forms
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new HomePage { Title = "ZXing.Net.Mobile" });
+			MainPage = new NavigationPage(new HomePage { Title = "Scan Scrap" });
 		}
 
 		protected override void OnStart()

@@ -23,7 +23,7 @@ namespace Sample.Forms
 		{
 			buttonScanDefaultOverlay = new Button
 			{
-				Text = "Scan with Default Overlay",
+				Text = "Scan Code",
 				AutomationId = "scanWithDefaultOverlay",
 			};
 			buttonScanDefaultOverlay.Clicked += async delegate
@@ -132,13 +132,13 @@ namespace Sample.Forms
 
 			var stack = new StackLayout();
 			stack.Children.Add(buttonScanDefaultOverlay);
-			stack.Children.Add(buttonScanCustomOverlay);
-			stack.Children.Add(buttonScanContinuously);
-			stack.Children.Add(buttonScanCustomPage);
-			stack.Children.Add(buttonScanContinuousCustomPage);
-			stack.Children.Add(buttonGenerateBarcode);
+            stack.Children.Add(buttonScanCustomOverlay);
+            stack.Children.Add(buttonScanContinuously);
+            stack.Children.Add(buttonScanCustomPage);
+            stack.Children.Add(buttonScanContinuousCustomPage);
+            stack.Children.Add(buttonGenerateBarcode);
 
-			Content = stack;
+            Content = stack;
 		}
 	}
 }
